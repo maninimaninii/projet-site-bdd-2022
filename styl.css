@@ -1,0 +1,107 @@
+
+.tqt{
+    margin-top: 20%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+}
+
+.wrap{
+    width : 1170px; 
+    margin-right: 50px;
+    float: right;
+}
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+
+}
+.navigation li a:hover{
+    background: white;
+    color: #333;
+}
+
+.formdiv{
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    right: 35%;
+   
+    
+}
+form {
+    background-color:#FAFAFA;
+    padding:10px;
+    width: 550px;
+    height: 450px;
+    
+    }
+   fieldset {
+    padding:0 20px 20px 20px;
+    margin-bottom:10px;
+    border:1px solid #DF3F3F;
+    }
+   legend {
+    color:#DF3F3F;
+    font-weight:bold
+    }
+   label {
+    margin-top:30px;
+    display:block;
+    background-color:#FFF3F3;
+    font-weight: bold;
+    }
+   label.inline {
+    display:inline;
+    margin-right:50px;
+    }
+   input, textarea {
+    background-color:#FFF3F3;
+    padding:3px;
+    margin-top: 7px;
+    border:1px solid #F5C5C5;
+    border-radius:5px;
+    width: 375px;
+    height: 25px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+    }
+   
+   input[type=submit], input[type=reset] {
+    width:160px;
+    margin-left:5px;
+    margin-top: 60px;
+    box-shadow:1px 1px 1px #D83F3D;
+    cursor:pointer;
+    }
+
+    .supprime {
+    
+        width:100px;
+            margin-left:5px;
+            background-color: red;
+            color: white;
+            cursor:pointer;
+    }
+    .modifie{
+    
+        width:100px;
+            margin-left:5px;
+            background-color: green;
+            color: white;
+            cursor:pointer;
+    }
+    

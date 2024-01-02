@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background : url(wallpaperflare.com_wallpaper.jpg);
+    image-rendering: -webkit-optimize-contrast;
+}
+
+header{
+    height: 100vh;
+    -webkit-background-size : cover;
+    background-size : cover;
+    background-position: center center;
+    position: relative;
+
+}
+.titre{
+    color: aliceblue;
+}
+.wrap{
+    width: auto; 
+    margin-right: 50px;
+    float: right;
+    height: fit-content;
+}
+.navigation{
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: poppins;
+    font-size: 18px;
+
+}
+.navigation li a:hover{
+    background: white;
+    color: #333;
+}
+
+
+.supprime{
+    
+    width:100px;
+    color: aliceblue;
+        margin-left:5px;
+        box-shadow:1px 1px 1px #D83F3D;
+        cursor:pointer;
+        background-color: black;
+}

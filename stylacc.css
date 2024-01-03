@@ -1,20 +1,16 @@
-*{
+body{
     margin: 0;
     padding: 0;
     background : url(wallpaperflare.com_wallpaper.jpg);
     image-rendering: -webkit-optimize-contrast;
 }
 
-header{
-    height: 100vh;
-    -webkit-background-size : cover;
-    background-size : cover;
-    background-position: center center;
-    position: relative;
 
-}
 .titre{
     color: aliceblue;
+    margin-top: 400px;
+    margin-left: 450px;
+    font-size: 80px;
 }
 .wrap{
     width: auto; 
@@ -22,27 +18,38 @@ header{
     float: right;
     height: fit-content;
 }
-.navigation{
-    float: right;
-    list-style: none;
-    margin-top: 10px;
+.navbar {
+    position: fixed;  
+    top: 0%;
+    left: 25%;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    text-align: center;
 }
-.navigation li{
+
+
+
+
+.navbar li {
     display: inline-block;
+    width: 250px; 
 }
-.navigation li a {
+
+.navbar li a {
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 20px 0; 
     font-family: poppins;
-    font-size: 18px;
-
+    font-size: 24px; 
+    display: block; 
+    cursor: pointer;
 }
-.navigation li a:hover{
+
+.navbar li a:hover {
     background: white;
     color: #333;
 }
-
 
 .supprime{
     
